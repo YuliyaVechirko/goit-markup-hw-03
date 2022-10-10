@@ -1,0 +1,226 @@
+/* колір фону #F5F5F5!*/
+/* header top line bg #FFFFFF! */
+/* section bg ефективні рішення #2F303A */
+/* section bg наша команда #F5F4FA */
+/* футер bg #2F303A */
+/* колір основного тексту #757575! */
+/*другорядний колір тексту #212121*/
+/* акцент #2196F3 */
+/* address: телефон і e-mail rgba(255, 255, 255, 0.6) */
+
+:root {
+    --primary-background-color: #F5F5F5;
+    --primary-white-color: #FFFFFF;
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-color: #2196F3;
+    --primary-logo-color: #000000; 
+}
+
+body {
+    background: var(--primary-background-color);
+    color: var(--primary-text-color);
+    font-family: Roboto, sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+/* HEADER */
+.page-header {
+    background-color: var(--primary-white-color);
+}
+
+.logo {
+   text-decoration: none;
+   color: var(--primary-logo-color);
+   font-family: Raleway, sans-serif; 
+   font-weight: 700;
+   font-size: 26px;
+   line-height: 1.19;
+   letter-spacing: 0.03em;
+}
+
+.accent {
+    color: var(--accent-color);
+}
+
+/* Site-nav */
+.site-nav a {
+    text-decoration: none;
+    color: var(--title-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14em;
+    letter-spacing: 0.02em;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: var(--accent-color);
+}
+
+/* address header*/
+.address a {
+    text-decoration: none;
+    color: var(--primary-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+.address .link:hover,
+.address .link:focus {
+    color: var(--accent-color);
+}
+
+ /*HERO */
+.hero {
+    background-color: #2F303A;
+    color: var(--primary-white-color);
+   }
+
+.hero-title {
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+}
+
+/* BUTTON */
+.button {
+    background-color: var(--accent-color);
+    color: var(--primary-white-color);
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
+}
+
+.section-title {
+   color: var(--title-text-color);
+   font-family: Roboto;
+   font-weight: 700;
+   font-size: 14px;
+   line-height: 1.14;
+   letter-spacing: 0.03em;
+}
+
+.section-paragraph {
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+}
+
+.section-job {
+    color: var(--title-text-color);
+    background-color: var(--primary-background-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+}
+
+.section-team {
+background-color: #F5F4FA;
+color: var(--title-text-color);
+font-weight: 700;
+font-size: 36px;
+line-height: 1.17;
+letter-spacing: 0.03em;
+}
+
+.section-name {
+color: var(--title-text-color);
+font-weight: 500;
+font-size: 16px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+}
+
+.section-profession {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+}
+
+/* footer*/
+footer {
+    background-color: #2F303A;
+}
+
+.logo-footer {
+text-decoration: none;
+color: var(--primary-white-color);
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+}
+
+.address-footer {
+text-decoration: none;
+color: var(--primary-white-color);
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+}
+
+.address-email-tel a {
+color: rgba(255, 255, 255, 0.6);
+text-decoration: none;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+}
+
+
+
+.address-email-tel .link:hover,
+.address-email-tel .link:focus {
+    color: var(--accent-color);
+}
+
+button {
+color: var(--title-text-color);
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.62;
+letter-spacing: 0.03em;
+}
+
+.filter .link:hover,
+.filter .link:focus {
+    background-color: var(--accent-color);
+    color: var(--primary-white-color);
+}
+
+.pages-name {
+color: var(--title-text-color);
+font-weight: 700;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+}
+
+.pages-info {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.88;
+letter-spacing: 0.03em;
+}
